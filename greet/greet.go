@@ -8,5 +8,5 @@ import "C"
  * Go string
  */
 func SayHello(name string) string {
-	return C.GoString(C.say_hello(C.CString(name)))
+    return C.GoString(C.say_hello(C.CString(name)))
 }

@@ -9,16 +9,16 @@
  */
 char *say_hello(char *name)
 {
-	// Assign 80 bytes for the full
-	// greeting string
-	char *greeting = malloc(80);
+    // Assign 80 bytes for the full
+    // greeting string
+    char *greeting = malloc(80);
 
-	char message[] = "Hello ";
+    char message[] = "Hello ";
 
-	// Concat the strings together
-	strcat(greeting, message);
-	strcat(greeting, name);
-	strcat(greeting, "!");
+    // Concat the strings together
+    strcat(greeting, message);
+    strcat(greeting, name);
+    strcat(greeting, "!");
 
-	return greeting;
+    return greeting;
 }
